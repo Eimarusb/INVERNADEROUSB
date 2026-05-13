@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Proyecto Integrador Fertirriego de Papas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    section {
+      min-height: 100vh;
+      padding: 40px;
+      border-bottom: 2px solid #ddd;
+    }
+    h1, h2 {
+      color: #0066cc;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #666;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>Proyecto integrador fertirriego de papas</h1>
+    <p>Presentado por: Eimar Esteban García Ramírez</p>
+  </section>
+
+  <section>
+    <h2>Objetivos</h2>
+    <ul>
+      <li>Desarrollo del sistema controlado y automatizado de fertirriego para papas</li>
+      <li>Identificación de nutrientes y dosis</li>
+      <li>Determinación de parámetros de operación</li>
+      <li>Diseño y construcción del prototipo</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Prototipo #1</h2>
+    <ul>
+      <li>Sistema hidráulico</li>
+      <li>Camas para cultivo</li>
+      <li>Sistema eléctrico</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Fertirriego</h2>
+    <p>Inyección de fertilizantes al agua mediante un sistema de dosificación.</p>
+  </section>
+
+  <section>
+    <h2>Riego Regular</h2>
+    <p>Suministro de agua sin aditivos para mantener la humedad e hidratación de las plantas.</p>
+  </section>
+
+  <section>
+    <h2>Oxigenación</h2>
+    <p>Incorporación de oxígeno mediante el movimiento del fluido dentro del tanque.</p>
+  </section>
+
+  <section>
+    <h2>Llenado Automático</h2>
+    <p>Control automático del nivel del tanque sin intervención humana.</p>
+  </section>
+
+  <section>
+    <h2>Funcionamiento del Tanque</h2>
+    <ul>
+      <li>Sensor de nivel alto</li>
+      <li>Sensor de nivel bajo</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Operación de cargas “potencia”</h2>
+    <table>
+      <tr>
+        <th>MODO DE TRABAJO</th>
+        <th>EV LLENADO</th>
+        <th>EV OXIGENACION</th>
+        <th>EV SALIDA</th>
+      </tr>
+      <tr><td>Oxigenación</td><td>0</td><td>1</td><td>0</td></tr>
+      <tr><td>Riego Regular</td><td>1</td><td>0</td><td>1</td></tr>
+      <tr><td>Fertirriego</td><td>0</td><td>0</td><td>1</td></tr>
+      <tr><td>Llenado Automático</td><td>1</td><td>1</td><td>0</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Operación de cargas “potencia”</h2>
+    <table>
+      <tr>
+        <th rowspan="2">Trabajo</th>
+        <th colspan="2">Funciona</th>
+      </tr>
+      <tr><td>SI</td><td>NO</td></tr>
+      <tr><td>Nivel Alto</td><td>X</td><td></td></tr>
+      <tr><td>Nivel Bajo</td><td></td><td>X</td></tr>
+      <tr><td>Riego Normal Operando</td><td></td><td>X</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>¿Y el IoT?</h2>
+  </section>
+
+  <section>
+    <h2>Hacia dónde vamos?</h2>
+    <ul>
+      <li>Aplicación del nuevo diseño hidráulico</li>
+      <li>Definición del tipo de comunicación inalámbrica</li>
+      <li>Nueva retroalimentación para añadir más al proyecto</li>
+    </ul>
+  </section>
+</body>
+</html>
